@@ -126,3 +126,30 @@ El proyecto está dividido en componentes reutilizables para mantener un código
   - `children`: contenido a mostrar dentro del modal (por ejemplo, el JSON).
 
 ---
+
+---
+
+
+## 🏃 Cómo ejecutar el proyecto
+
+1. Primero instala todas las dependencias necesarias con este comando:
+```
+   npm install
+```
+2. Una vez que termine la instalación, puedes arrancar el servidor de desarrollo con:
+```
+   npm run dev
+```
+   Esto levanta la aplicación en modo desarrollo. Normalmente se abre en http://localhost:5173, pero puedes comprobar en la terminal si utiliza otro puerto.
+
+---
+
+## ⚙️ Generar la versión de producción
+
+Cuando termines de trabajar y quieras preparar el proyecto para producción, ejecuta:
+```
+   npm run build
+```
+Esto crea una carpeta llamada dist con los archivos optimizados listos para subir a un servidor.
+
+---
